@@ -1,0 +1,39 @@
+@import "../aboutme.scss";
+
+.header {
+  display: flex;
+  width: 100%;
+  position: fixed;
+  font-family: $fontOpen;
+  background-color: $nightBlue;
+}
+
+.header ul {
+    @include centering();
+}
+
+.header ul {
+    ol a {
+        text-decoration: none;
+        @include centering();
+        color: white;
+  }
+}
+
+.logo {
+  width: 11%;
+  margin-right: 5%;
+  object-fit: cover;
+  @include centering();
+}
+
+.logo img {
+  width: 100%;
+}
+
+.page {
+  width: 20%;
+}
+.icon {
+    margin-right: 3%;
+}
