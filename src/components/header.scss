@@ -5,7 +5,8 @@
   width: 100%;
   position: fixed;
   font-family: $fontOpen;
-  background-color: $nightBlue;
+  background-color: $headerColor;
+  z-index: 1000;
 }
 
 .header ul {
