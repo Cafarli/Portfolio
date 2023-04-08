@@ -9,6 +9,8 @@ import currency from "../images/projects/currencyConverter.png";
 export default function Projects() {
   return (
     <div className="projects">
+      <h1>My Projects</h1>
+    <div className="projectsList">
       <ProjectCard
         title="Footbal Club Website"
         img={footbal}
@@ -36,7 +38,7 @@ export default function Projects() {
         img={todolist}
         github="https://github.com/Cafarli/Figma-To-do-list.git"
       />
-
+</div>
     </div>
   );
 }

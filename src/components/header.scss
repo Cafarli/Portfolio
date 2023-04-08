@@ -49,3 +49,19 @@
 .icon {
     margin-right: 3%;
 }
+
+@media screen and (max-width: 640px) {
+  .header {
+    ul {
+      padding: 0;
+      font-size: 14px;
+    }
+    // .logo {
+    //   width: ;
+    // }
+    .page {
+      width: 30%;
+      padding-left: 5%;
+    }
+  }
+}

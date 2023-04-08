@@ -10,7 +10,7 @@ h1 {
 
 .welcome {
   width: 80%;
-  padding: 10% 0 5% 0;
+  padding: 15% 0 5% 0;
   font-family: $fontRob;
   @include centering($side: auto);
 }
@@ -146,12 +146,10 @@ h1 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    flex-grow: 1;
-    svg {
-      // width: 8%;
+    svg { 
       display: flex;
-      // flex-grow: 0;
       flex: 1 1 250px;
+      flex-grow: 0;
       border: 1px solid $orangeColor;
       border-radius: 20px;
       padding: 3% 0%;
@@ -171,3 +169,35 @@ h1 {
     margin-bottom: 7%;
   }
 }
+
+
+@media screen and (max-width:860px) {
+  .welcome  {
+    flex-direction: column;
+    .text {
+      width: 87%;
+      .download {
+        width: 40%;
+      }
+    }
+    .photo {
+      margin-top: 10%;
+      width: 60%;
+    }
+
+  }
+  .whoIam {
+
+    .content {
+      flex-direction: column;
+      img {
+        width: 50%;
+      }
+      p {
+        width: 90%;
+      }
+    
+    }
+  }
+}
+
