@@ -7,8 +7,8 @@ export default function Header() {
     return(
         <div className="header">
             <ul>
-                <ol className="logo" to="/about-me"><img alt="logo" src={photo}></img></ol>
-                <ol className="page"><Link  to="/about-me"><PersonOutlineRoundedIcon className="icon" />About me</Link></ol>
+                <ol className="logo"><Link to="/about-me"><img alt="logo" src={photo}></img></Link></ol>
+                <ol className="page"><Link to="/about-me"><PersonOutlineRoundedIcon className="icon" />About me</Link></ol>
                 <ol className="page"><Link to="/projects"><AccountTreeOutlinedIcon className="icon" /> My projects</Link></ol>
             </ul>
         </div>

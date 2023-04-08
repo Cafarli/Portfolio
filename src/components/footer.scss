@@ -1,0 +1,15 @@
+@import "./styles.scss";
+
+.footer {
+    background-color: $headerColor;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    p {
+        color: gray;
+        width: 35%;
+        @include centering($side: auto);
+        @include textDesign($size:12px);
+        justify-content: center;
+    }
+}
