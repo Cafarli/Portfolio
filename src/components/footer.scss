@@ -2,12 +2,12 @@
 
 .footer {
     background-color: $headerColor;
-    height: 30px;
+    height: 34px;
     display: flex;
     align-items: center;
     p {
-        color: gray;
-        width: 35%;
+        color: rgb(109, 109, 109);
+        width: 40%;
         @include centering($side: auto);
         @include textDesign($size:12px);
         justify-content: center;

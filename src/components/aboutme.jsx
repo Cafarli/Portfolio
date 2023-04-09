@@ -1,4 +1,5 @@
 import "./aboutme.scss";
+import Contact from "./contact";
 import logo from "../images/JafarliTurkana.png";
 import photo from "../images/avatar.png";
 import { Link } from "react-router-dom";
@@ -94,6 +95,7 @@ export default function AboutMe() {
           </div>
         </div>
       </div>
+      <Contact />
     </div>
   );
 }

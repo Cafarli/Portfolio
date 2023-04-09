@@ -9,9 +9,10 @@ $fontMont: "Montserrat";
 $fontRob: "Roboto Slab";
 $fontType: "Alkatra";
 $fontText: "Signika Negative";
-$headerColor: #ffdbac;
+$headerColor: #f9d29f;
 $bgColor: #fdeeda;
 $orangeColor: #ff8c00;
+$blueColor: #3C64A4;
 
 @mixin centering($top: 0px, $side: 0px, $drct: row) {
   display: flex;

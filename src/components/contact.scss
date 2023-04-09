@@ -1,0 +1,35 @@
+@import "./styles.scss";
+
+.contact {
+  width: 80%;
+  @include centering($side: auto, $drct: column);
+  padding-bottom: 5%;
+  h1 {
+    margin-bottom: 5%;
+  }
+}
+
+.ways {
+  width: 100%;
+  ul {
+    width: 30%;
+    @include centering($side: auto);
+    padding: 0;
+    justify-content: space-around;
+    ol {
+      padding: 0;
+      width: 100px;
+      @include centering($side: 3%);
+      justify-content: center;
+      span {
+        background-color: $orangeColor;
+        padding: 10px 12px;
+        border-radius: 50%;
+        a {
+            width: 100%;
+          color: white;
+        }
+      }
+    }
+  }
+}

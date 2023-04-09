@@ -33,7 +33,7 @@
 .infoProject {
   width: 100%;
   @include centering($top: 2%, $side: 3%, $drct: column);
-  @include textDesign($size: 20px,$family:$fontText)
+  @include textDesign($size: 20px, $family: $fontText);
 }
 
 .buttons {
@@ -45,7 +45,7 @@
     text-decoration: none;
     button {
       @include centering();
-  @include textDesign($size:16px, $family:$fontText);
+      @include textDesign($size: 16px, $family: $fontText);
       justify-content: center;
       width: 100%;
       padding: 4% 0;
@@ -53,16 +53,14 @@
       border-radius: 5px;
       outline: none;
       color: white;
-      background-color: #3C64A4;
+      background-color: $blueColor;
       cursor: pointer;
       svg {
         margin-right: 6%;
-
       }
     }
   }
 }
-
 
 @media screen and (max-width: 930px) {
   .projects {
