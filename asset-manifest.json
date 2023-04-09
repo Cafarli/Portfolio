@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.6d806ed6.css",
+    "main.js": "/portfolio/static/js/main.53b6d418.js",
+    "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/interior.png": "/portfolio/static/media/interior.9687515101f0f0e381dc.png",
+    "static/media/movie.png": "/portfolio/static/media/movie.ab340c1a6c01e6c7201b.png",
+    "static/media/footbalClub.png": "/portfolio/static/media/footbalClub.89d1dd120c03c947cb59.png",
+    "static/media/avatar.png": "/portfolio/static/media/avatar.9915e8d79fb9501d931a.png",
+    "static/media/currencyConverter.png": "/portfolio/static/media/currencyConverter.cfccc982376c44bda3fc.png",
+    "static/media/Turkana's_CV.pdf": "/portfolio/static/media/Turkana's_CV.767029d2753151ba5149.pdf",
+    "static/media/JafarliTurkana.png": "/portfolio/static/media/JafarliTurkana.be12245fbff7b315fbfd.png",
+    "static/media/todolist.png": "/portfolio/static/media/todolist.a7cde2e54b1760d48c64.png",
+    "index.html": "/portfolio/index.html",
+    "main.6d806ed6.css.map": "/portfolio/static/css/main.6d806ed6.css.map",
+    "main.53b6d418.js.map": "/portfolio/static/js/main.53b6d418.js.map",
+    "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6d806ed6.css",
+    "static/js/main.53b6d418.js"
+  ]
+}
