@@ -64,7 +64,7 @@ export default function AboutMe() {
           <p>
             I am a junior front-end and sql developer from Azerbaijan.
             <br />
-            My areas of interest are <span>Web development</span> and{" "}
+            My areas of interest are <span>Web development</span> and
             <span>Data analytics</span>.
             <br />
             In addition to my university education, I develop myself by studying
