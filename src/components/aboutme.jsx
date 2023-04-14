@@ -62,7 +62,7 @@ export default function AboutMe() {
         <div className="content">
           <img alt="logo" src={logo}></img>
           <p>
-            I am a junior front-end developer from Azerbaijan.
+            I am a junior front-end and sql developer from Azerbaijan.
             <br />
             My areas of interest are <span>Web development</span> and{" "}
             <span>Data analytics</span>.
