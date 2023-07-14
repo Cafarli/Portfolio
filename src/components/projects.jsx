@@ -34,7 +34,7 @@ export default function Projects() {
         github="https://github.com/Cafarli/ValyutaDeyisdirici-CurrencyConverter"
       />
       <ProjectCard
-        title="Currency Converter"
+        title="To Do List"
         img={todolist}
         github="https://github.com/Cafarli/Figma-To-do-list.git"
       />

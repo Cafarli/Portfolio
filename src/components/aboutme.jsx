@@ -62,13 +62,12 @@ export default function AboutMe() {
         <div className="content">
           <img alt="logo" src={logo}></img>
           <p>
-            I am a junior front-end and sql developer from Azerbaijan.
+            I am a junior developer from Azerbaijan.
             <br />
             My areas of interest are <span>Web development</span> and
             <span>Data analytics</span>.
             <br />
-            In addition to my university education, I develop myself by studying
-            myself.
+            Aside from my formal education, I also work on my personal development by self-studying.
           </p>
         </div>
       </div>
@@ -76,13 +75,13 @@ export default function AboutMe() {
         <h1>🎯 Skills && Tools </h1>
         <div className="skillPart">
           <div>
-            <DiHtml5 title="Html5" />
-            <DiCss3 title="Css3" />
+            <DiHtml5 title="HTML5" />
+            <DiCss3 title="CSS3" />
             <DiJavascript1 title="Javascript" />
             <DiBootstrap title="Bootstrap" />
-            <DiMsqlServer title="MsqlServer" />
-            <DiReact title="React" />
-            <DiMysql title="Mysql" />
+            <DiMsqlServer title="MSSqlServer" />
+            <DiReact title="ReactJS" />
+            <DiMysql title="MySql" />
             <SiOracle title="Oracle" />
             <DiJava title="Java" />
             <DiPython title="Python" />
